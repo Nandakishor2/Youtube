@@ -1,37 +1,32 @@
 # Virtual Environment
 venv/
 .venv/
-env/
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
 
 # Environment Variables
 .env
 
-# VS Code
-.vscode/
+# Python
+__pycache__/
+*.py[cod]
 
-# PyCharm
+# IDE
+.vscode/
 .idea/
 
 # Logs
 *.log
 
-# pytest
+# Pytest
 .pytest_cache/
 
-# mypy
+# Type Checking
 .mypy_cache/
 
-# Build
-build/
-dist/
-*.egg-info/
+# Coverage
+.coverage
+htmlcov/
 
-# OS Files
-.DS_Store
-Thumbs.db
+# Build
+dist/
+build/
+*.egg-info/
